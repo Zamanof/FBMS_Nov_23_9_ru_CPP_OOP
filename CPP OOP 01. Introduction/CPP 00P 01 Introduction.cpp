@@ -62,4 +62,6 @@ int main() {
 	// private
 	// protected
 
+	// Ayaz krutoy
+	Student AyazStudent{ "Ayaz", "Krutoy", 16 };
 }
