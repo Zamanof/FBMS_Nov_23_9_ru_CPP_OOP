@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7d6af894-2fa1-40e3-a65c-97c38e155f50}</ProjectGuid>
-    <RootNamespace>CPP03Initializelist</RootNamespace>
+    <ProjectGuid>{357d4835-4bf5-409e-a2d0-30fe713f235e}</ProjectGuid>
+    <RootNamespace>CPPOOP03Staticfieldsstaticmethods</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CPP OOP 03. Initialize list</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Initialize list.cpp" />
+    <ClCompile Include="Static fields and methods.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

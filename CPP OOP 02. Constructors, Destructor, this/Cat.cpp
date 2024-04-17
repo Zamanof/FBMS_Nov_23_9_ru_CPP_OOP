@@ -35,6 +35,7 @@ Cat::Cat(const char* name, const char* breed) {
 	setName(name);
 	setBreed(breed);
 	setAge(0);
+	
 	life = 9;
 }
 

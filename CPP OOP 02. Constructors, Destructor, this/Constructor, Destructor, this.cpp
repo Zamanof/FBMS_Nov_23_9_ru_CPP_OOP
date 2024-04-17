@@ -23,5 +23,4 @@ int main() {
 	/*foo(cat1);*/
 	cout << cat1.getName() << endl;
 	Cat cat2("Bobik", "Pitbulterier");
-
 }
