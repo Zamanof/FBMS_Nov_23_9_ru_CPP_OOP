@@ -10,8 +10,8 @@ void foo(Cat cat) {
 int main() {
 	// constructor, destructor, this
 	// Iz pod kapota v lyubom klasse sushestvuyet 4 metoda
-	// 1. default constructor
-	// 2. copy constructor
+	// 1. default constructor	Cat(){}
+	// 2. copy constructor		Cat(const Cat& cat)
 	// 3. move constructor
 	// 4. destructor
 
