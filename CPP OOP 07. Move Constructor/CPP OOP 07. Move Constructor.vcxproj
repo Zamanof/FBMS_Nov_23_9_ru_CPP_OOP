@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7b6b6597-d5d0-4ec7-acbb-4452e33ac94c}</ProjectGuid>
+    <ProjectGuid>{F0A6E61D-277C-485B-A67B-65E1F029C451}</ProjectGuid>
     <RootNamespace>CPPOOP06MoveConstructor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>CPP OOP 07. Move Constructor</ProjectName>
