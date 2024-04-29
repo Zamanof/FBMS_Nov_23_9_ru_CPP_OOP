@@ -1,5 +1,4 @@
 #include "DynamicArray.h"
-#include "DynamicArray.h"
 
 DynamicArray::DynamicArray()
 	: DynamicArray(5)

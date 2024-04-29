@@ -18,15 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Operator overloading.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{37ae181c-031e-41de-b2b8-6529851aeed3}</ProjectGuid>
-    <RootNamespace>CPPOOP05Operatoroverloading</RootNamespace>
+    <ProjectGuid>{8465851e-4402-4e18-8801-8194092e1411}</ProjectGuid>
+    <RootNamespace>DynamicArraywithoperatoroverloading</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CPP OOP 06. Dynamic Array with operator overloading</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,6 +127,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DynamicArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dynamic Array with operator overloading.cpp" />
+    <ClCompile Include="DynamicArray.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

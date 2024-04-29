@@ -35,6 +35,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 05. Without operato
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 05. Operator overloading", "CPP OOP 05. Operator overloading\CPP OOP 05. Operator overloading.vcxproj", "{37AE181C-031E-41DE-B2B8-6529851AEED3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP OOP 06", "CPP OOP 06", "{0C425A49-3998-488B-8F16-A6A0AFF25F07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP OOP 06. Dynamic Array with operator overloading", "Dynamic Array with operator overloading\Dynamic Array with operator overloading.vcxproj", "{8465851E-4402-4E18-8801-8194092E1411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +135,14 @@ Global
 		{37AE181C-031E-41DE-B2B8-6529851AEED3}.Release|x64.Build.0 = Release|x64
 		{37AE181C-031E-41DE-B2B8-6529851AEED3}.Release|x86.ActiveCfg = Release|Win32
 		{37AE181C-031E-41DE-B2B8-6529851AEED3}.Release|x86.Build.0 = Release|Win32
+		{8465851E-4402-4E18-8801-8194092E1411}.Debug|x64.ActiveCfg = Debug|x64
+		{8465851E-4402-4E18-8801-8194092E1411}.Debug|x64.Build.0 = Debug|x64
+		{8465851E-4402-4E18-8801-8194092E1411}.Debug|x86.ActiveCfg = Debug|Win32
+		{8465851E-4402-4E18-8801-8194092E1411}.Debug|x86.Build.0 = Debug|Win32
+		{8465851E-4402-4E18-8801-8194092E1411}.Release|x64.ActiveCfg = Release|x64
+		{8465851E-4402-4E18-8801-8194092E1411}.Release|x64.Build.0 = Release|x64
+		{8465851E-4402-4E18-8801-8194092E1411}.Release|x86.ActiveCfg = Release|Win32
+		{8465851E-4402-4E18-8801-8194092E1411}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +159,7 @@ Global
 		{60568A4E-C27D-469C-819B-86A77BED96F7} = {0BD1D426-9D07-4040-A59B-FBE35AE2266B}
 		{9D5625FB-5A07-4D72-B9B3-1C253EF81072} = {0BD1D426-9D07-4040-A59B-FBE35AE2266B}
 		{37AE181C-031E-41DE-B2B8-6529851AEED3} = {0BD1D426-9D07-4040-A59B-FBE35AE2266B}
+		{8465851E-4402-4E18-8801-8194092E1411} = {0C425A49-3998-488B-8F16-A6A0AFF25F07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EA689DE-FDCE-41EE-A57A-C7B94675900F}
