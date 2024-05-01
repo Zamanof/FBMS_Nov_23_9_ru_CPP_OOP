@@ -78,7 +78,7 @@ public:
 	}
 
 	void sorting() {
-		sort(&arr[0], &arr[size - 1]);
+		sort(&arr[0], &arr[size]);
 	}
 
 	~DynamicArray() {
@@ -208,7 +208,7 @@ istream& operator>>(istream& input, DynamicArray<char**>& dynamicArray) {
 }
 
 int main() {
-	DynamicArray<int> array1;
+	/*DynamicArray<int> array1;
 	array1.randomize();
 	cout << array1 << endl;
 	array1.sorting();
@@ -217,12 +217,14 @@ int main() {
 	DynamicArray<char> array2;
 	array2.randomize();
 	cout << array2 << endl;
+	array2.sorting();
+	cout << array2 << endl;*/
 
-	DynamicArray<char**> array3;
+	/*DynamicArray<char**> array3;
 	array3.randomize();
-	cout << array3 << endl;
 	array3[3] = new char [6] {"Salam"};
-	array3.sorting();
 	cout << array3 << endl;
+	array3.sorting();
+	cout << array3 << endl;*/
 
 }
