@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{58af2148-622f-4599-8538-5a94de68648b}</ProjectGuid>
-    <RootNamespace>CPPOOP09Linkedlist</RootNamespace>
+    <ProjectGuid>{37f996dc-6607-422d-885e-565fade7f732}</ProjectGuid>
+    <RootNamespace>CPPOOP11RelationsAggregationCompositionNestedclasses</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Linked_list.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
+    <ClCompile Include="Aggregation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

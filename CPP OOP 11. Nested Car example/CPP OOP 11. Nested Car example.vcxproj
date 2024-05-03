@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{58af2148-622f-4599-8538-5a94de68648b}</ProjectGuid>
-    <RootNamespace>CPPOOP09Linkedlist</RootNamespace>
+    <ProjectGuid>{c0a41e21-9b95-40b1-9154-2eae66e5a989}</ProjectGuid>
+    <RootNamespace>CPPOOP11NestedCarexample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Linked_list.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
+    <ClCompile Include="NestedClassesCarEngine.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
