@@ -17,7 +17,7 @@ class Dog : public Animal
 public:
 	int age;
 	// method override - peropredelinye metoda
-	void Sound() override {
+	void Sound() override{
 		cout << name << " - wang wang" << endl;
 	}
 };
@@ -26,7 +26,7 @@ class Cat : public Animal
 {
 public:
 	float price;
-	void Sound() override{
+	void Sound() override {
 		cout << name << " - xochu kotletku" << endl;
 	}
 };
@@ -35,7 +35,7 @@ class CheshireCat : public Cat
 {
 public:
 	string smartSentence;
-	void Sound() {
+	void Sound() override {
 		cout << name << " - Esli neznayesh kuda xochesh popast. Toqda vseravno kuda idti." << endl;
 	}
 };
@@ -47,16 +47,7 @@ void infoCat(Cat cat) {
 
 
 
-void SomeFunction(void(*func)(void)) {
-	func();
-}
 
-void Salam() {
-	cout << "Salam" << endl;
-}
-void Saqol() {
-	cout << "Saqol" << endl;
-}
 
 int main() {
 
@@ -108,11 +99,23 @@ int main() {
 	 cat2.Sound();*/
 
 
-	Animal* cheshireCat = new CheshireCat();
+	/*Animal* cheshireCat = new Cat();
 	cheshireCat->name = "Alisa";
-	SomeFunction(Salam);
-	SomeFunction(Saqol);
-	
+	cheshireCat->Sound();*/
+
+	Animal** animals = new Animal*[5]{
+		new Dog(),
+		new Cat(),
+		new Dog(),
+		new CheshireCat(),
+		new Cat()
+	};
+
+	for (size_t i = 0; i < 5; i++)
+	{
+		animals[i]->Sound();
+	}
+
 #pragma endregion
 
 
